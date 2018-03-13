@@ -1,0 +1,67 @@
+body {background-color: grey;}
+
+h1 {
+  color: white;
+  font-size: 8em;
+  font-variant: small-caps;
+  text-align: center;
+  text-shadow: 5px 5px 5px black;
+}
+#calc {
+  width:250px;
+  height:350px;
+  background-color: #190F19;
+  border-radius: 0.6em;
+  position: fixed;
+  right: 30em;
+  left: 30em;
+  top: 15em;
+  box-shadow: 8px 8px 8px black;
+  border-radius: 0.5em;
+
+}
+
+#select {
+  width:22em;
+  height:40px;
+  font-size:20px;
+  padding-left: 2px;
+  padding-right: 2px;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align-last: right;
+  border-radius: 0.5em;
+
+
+}
+.button {
+  width:5.5em;
+  height: 2.5em;
+  background-color: #724676;
+  color: white;
+  font-size: 1em;
+  padding-left: 2em;
+  margin-left: 1em;
+  border-radius: 0.5em;
+  box-shadow: 1px 1px 1px grey;
+}
+.button:focus {outline-color: black;}
+#select:focus {outline-color: #724676;}
+#select:focus {outline-style: inset;}
+
+#LeftFlower {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  transform: rotateX(180deg);
+  transform: rotate(75deg);
+  width: 10em;
+}
+
+#RightFlower {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  width: 15em;
+
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="calcStyle.css">
+    <script src="calcScript.js"></script>
+  </head>
+  <body>
+    <h1>.: My Calculator :.</h1>
+    <form id="calculator"name="calculator">
+      <table id="calc" border=1>
+        <tr>
+        <td colspan=4><input id="select" name="display" type="text"></td>
+        <td style="display:none"><input name="M" type="number"></td>
+        </tr>
+        <tr>
+          <td><input class="button" id="reset" type=button value="C"></td>
+          <td><input class="button" id="square" type=button value="√"></td>
+          <td><input class="button" id="kvadrat" type=button value="x2"></td>
+          <td><input class="button" id="divide" type=button value="/"></td>
+        </tr>
+        <tr>
+          <td><input class="button" id="seven" type=button value="7"></td>
+          <td><input class="button" id="eight" type=button value="8"></td>
+          <td><input class="button" id="nine" type=button value="9"></td>
+          <td><input class="button" id="multi" type=button value="*"></td>
+        </tr>
+        <tr>
+          <td><input class="button" id="four" type=button value="4"></td>
+          <td><input class="button" id="five" type=button value="5"></td>
+          <td><input class="button" id="six" type=button value="6"></td>
+          <td><input class="button" id="minus" type=button value="-"></td>
+        </tr>
+        <tr>
+          <td><input class="button" id="one" type=button value="1"></td>
+          <td><input class="button" id="two" type=button value="2"></td>
+          <td><input class="button" id="three" type=button value="3"></td>
+          <td><input class="button" id="plus" type=button value="+"></td>
+        </tr>
+        <tr>
+          <td><input class="button" id="plusOrMinus" type=button value="±"></td>
+          <td><input class="button" id="zero" type=button value="0"></td>
+          <td><input class="button" id="comma" type=button value="."></td>
+          <td><input class="button" id="equal" type=button value="="></td>
+        </tr>
+
+      </table>
+    </form>
+    <div>
+      <img id="RightFlower" src="flower.png">
+      <img id="LeftFlower" src="flower.png">
+    </div>
+  </body>
+</html>
